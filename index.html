@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="./bootstrap-4.5.3-dist/js/jquery.min.js"></script>
+    <script src="./bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script></script>
+    <link rel="stylesheet" href="pro.css">
+
+    <title>practice</title>
+</head>
+
+<body>
+
+
+    <!-- home section -->
+    <video id="bg" width="100%" autoplay>
+        <!-- <div class="bgimg"> -->
+        <source src="video/video.mp4" type="video/mp4">
+ </video>
+
+    <!-- navbar section -->
+    <div class="col">
+        <div class="navbar navbar-expand-md  navbar-dark bg-light fixed-top">
+            <div class="container">
+                <a href="" class="navbar-brand text-info font-white-bold ">TRAVEL VIBES</a>
+                <button class="navbar-toggler">
+                    <span class="navbar-toggler-icon" onclick="myfun()"></span>
+                    </button>
+
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+
+                    <ul class="navbar-nav ml-auto m-1">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="feedback.html" class="nav-link">FEEDBACK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contactus.html" class="nav-link">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- navbar section end -->
+
+    <!-- gellary section  -->
+    <div id="gellary">
+
+        <div class="heading">
+            <h3 class="p-4 text-center d-block">GELLARY</h3>
+        </div>
+        <div class="container px-0">
+            <div class="row m-0">
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/ooty1.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/ooty3.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/manali3.jpg" class="h-100 w-100">
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/kasol1.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/kasol2.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/manali2.jpg" class="h-100 w-100">
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/shimla3.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/shimla4.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/manali4.jpg" class="h-100 w-100">
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/kasol3.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/kasol4.jpg" class="h-100 w-100">
+                </div>
+                <div class="col-md-4 col-sm-6 col-12 p-2">
+                    <img src="images/ooty2.jpg" class="h-100 w-100">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- gellary section end -->
+
+    <!-- toggle button script -->
+    <script>
+        function classtoggle() {
+            const navs = document.querySelectorAll('.nav-item')
+            navs.forEach(nav => nav.classList.toggle('navbar__ToggleShow'));
+
+        }
+        document.querySelector('#mynavbar').addEventListener('click', classtoggle);
+    </script>
+
+    <!-- footer section -->
+    <div class="footer text-center">
+        <div class="row m-1">
+            <div class="col-12 bg-info">
+                <h6 class="p-3">all rights reserved by @travel vibes</h6>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
